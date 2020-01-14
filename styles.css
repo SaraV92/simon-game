@@ -6,20 +6,69 @@ body {
 #banner {
   height: 700px;
   width: 800px;
-  display:none;
+  display: none;
   overflow: auto;
   background-color: #FEF2BF;
+  opacity: 0.9;
   color: #011F3F;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+}
+
+#how-container {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 12%;
+}
+
+.how-title {
+  color: #011F3F;
+  font-family: 'Press Start 2P', cursive;
+  margin: 7%;
+  margin-bottom: 50px;
+}
+
+.how-list {
+  color: #011F3F;
+  font-family: 'Press Start 2P', regular;
+  font-size: 1rem;
+  margin: 16px 0px;
+  padding: 0 0 40px;
+}
+
+.how-list li {
+  margin-bottom: 30px;
+}
+
+#btn-close {
+  background-color: transparent;
+  color: #011F3F;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  position: fixed;
+  bottom: 5%;
+  left: 42%;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}
+
+#btn-close:hover {
+  color: grey;
+}
+
+#btn-close:focus {
+  outline: none;
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  3%;
+  margin: 3%;
   color: #FEF2BF;
 }
 
@@ -27,11 +76,10 @@ body {
   display: block;
   width: 50%;
   margin: auto;
-
 }
 
 .btn {
-  margin: 25px;
+  margin: 15px;
   display: inline-block;
   height: 200px;
   width: 200px;
@@ -41,7 +89,7 @@ body {
 }
 
 .btn:focus {
-    outline: none;
+  outline: none;
 }
 
 .game-over {
@@ -71,17 +119,17 @@ body {
 }
 
 #btn-how {
-  background-color:transparent;
-  border-radius:2px;
-  border:5px solid #FEF2BF;
-  display:inline-block;
-  cursor:pointer;
-  color:#FEF2BF;
+  background-color: transparent;
+  border-radius: 2px;
+  border: 5px solid #FEF2BF;
+  display: inline-block;
+  cursor: help;
+  color: #FEF2BF;
   font-family: 'Press Start 2P', cursive;
   font-size: 1.5rem;
-  padding:16px 31px;
-  margin:2%;
-  text-decoration:none;
+  padding: 16px 31px;
+  margin-top: 3%;
+  text-decoration: none;
 }
 
 #btn-how:focus {
@@ -89,6 +137,6 @@ body {
 }
 
 #btn-how:active {
-  position:relative;
-  top:1px;
+  position: relative;
+  top: 1px;
 }
