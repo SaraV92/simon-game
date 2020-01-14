@@ -3,10 +3,23 @@ body {
   background-color: #011F3F;
 }
 
+#banner {
+  height: 700px;
+  width: 800px;
+  display:none;
+  overflow: auto;
+  background-color: #FEF2BF;
+  color: #011F3F;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  4%;
+  margin:  3%;
   color: #FEF2BF;
 }
 
@@ -58,23 +71,24 @@ body {
 }
 
 #btn-how {
-	background-color:transparent;
-	border-radius:2px;
-	border:5px solid #FEF2BF;
-	display:inline-block;
-	cursor:pointer;
-	color:#FEF2BF;
+  background-color:transparent;
+  border-radius:2px;
+  border:5px solid #FEF2BF;
+  display:inline-block;
+  cursor:pointer;
+  color:#FEF2BF;
   font-family: 'Press Start 2P', cursive;
   font-size: 1.5rem;
-	padding:16px 31px;
-	text-decoration:none;
+  padding:16px 31px;
+  margin:2%;
+  text-decoration:none;
 }
 
 #btn-how:focus {
-    outline: none;
+  outline: none;
 }
 
 #btn-how:active {
-	position:relative;
-	top:1px;
+  position:relative;
+  top:1px;
 }
