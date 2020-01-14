@@ -14,11 +14,11 @@ $("body").keydown(function() {
 
 $(".btn").click(function() {
   if (started === true) {
-  var userChosenColour = $(this).attr("id");
-  userClickedPattern.push(userChosenColour);
-  playSound(userChosenColour);
-  animatePress(userChosenColour);
-  checkAnswer(userClickedPattern.length - 1);
+    var userChosenColour = $(this).attr("id");
+    userClickedPattern.push(userChosenColour);
+    playSound(userChosenColour);
+    animatePress(userChosenColour);
+    checkAnswer(userClickedPattern.length - 1);
   }
 });
 
@@ -70,3 +70,11 @@ function startOver() {
   gamePattern = [];
   started = false;
 }
+
+$("#btn-how").click(function() {
+  $("#banner").fadeToggle(200);
+});
+
+$("#btn-close").click(function() {
+  $("#banner").fadeToggle(200);
+});
