@@ -72,9 +72,9 @@ function startOver() {
 }
 
 $("#btn-how").click(function() {
-  $("#banner").fadeToggle(200);
+  $("#banner").fadeIn(200);
 });
 
 $("#btn-close").click(function() {
-  $("#banner").fadeToggle(200);
+  $("#banner").fadeOut(200);
 });
