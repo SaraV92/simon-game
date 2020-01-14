@@ -56,3 +56,25 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+#btn-how {
+	background-color:transparent;
+	border-radius:2px;
+	border:5px solid #FEF2BF;
+	display:inline-block;
+	cursor:pointer;
+	color:#FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+	padding:16px 31px;
+	text-decoration:none;
+}
+
+#btn-how:focus {
+    outline: none;
+}
+
+#btn-how:active {
+	position:relative;
+	top:1px;
+}
